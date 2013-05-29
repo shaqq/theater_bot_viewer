@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AA6C1B861745737800429AD2 /* ScriptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6C1B851745737800429AD2 /* ScriptViewController.m */; };
+		AA8B0EC51756838300C95D7D /* ScriptViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA8B0EC41756838300C95D7D /* ScriptViewController.xib */; };
 		AAADDC5017429FA400C5D4C2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAADDC4F17429FA400C5D4C2 /* Cocoa.framework */; };
 		AAADDC5A17429FA400C5D4C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAADDC5817429FA400C5D4C2 /* InfoPlist.strings */; };
 		AAADDC5C17429FA400C5D4C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAADDC5B17429FA400C5D4C2 /* main.m */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		AA6C1B841745737800429AD2 /* ScriptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptViewController.h; sourceTree = "<group>"; };
 		AA6C1B851745737800429AD2 /* ScriptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScriptViewController.m; sourceTree = "<group>"; };
+		AA8B0EC41756838300C95D7D /* ScriptViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScriptViewController.xib; sourceTree = "<group>"; };
 		AAADDC4C17429FA400C5D4C2 /* TheaterBotViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheaterBotViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAADDC4F17429FA400C5D4C2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		AAADDC5217429FA400C5D4C2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -121,6 +123,7 @@
 				AAADDC6217429FA400C5D4C2 /* AppDelegate.m */,
 				AA6C1B841745737800429AD2 /* ScriptViewController.h */,
 				AA6C1B851745737800429AD2 /* ScriptViewController.m */,
+				AA8B0EC41756838300C95D7D /* ScriptViewController.xib */,
 				AAADDC6417429FA400C5D4C2 /* MainMenu.xib */,
 				AAADDC5617429FA400C5D4C2 /* Supporting Files */,
 			);
@@ -232,6 +235,7 @@
 				AAADDC5A17429FA400C5D4C2 /* InfoPlist.strings in Resources */,
 				AAADDC6017429FA400C5D4C2 /* Credits.rtf in Resources */,
 				AAADDC6617429FA400C5D4C2 /* MainMenu.xib in Resources */,
+				AA8B0EC51756838300C95D7D /* ScriptViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -48,9 +48,22 @@
     else
         [temp setCollectionBehavior:NSWindowCollectionBehaviorFullScreenPrimary];
     
+    NSTextView *textView = [[NSTextView alloc] initWithFrame:[temp frame]];
+    ScriptViewController *svc = [[ScriptViewController alloc] initWithNibName:@"ScriptViewController" bundle:nil];
+    
+    [svc.view setFrame:[temp frame]];
+    [svc.view addSubview:textView];
+    
+    [temp setContentView:svc.view];
+    [textView setFont:[NSFont fontWithName:@"Helvetica" size:48.0]];
+    [textView setTextColor:[NSColor blackColor]];
+    [temp setBackgroundColor:[NSColor whiteColor]];
+    [textView insertText:@"testing"];
+    
+    
     [temp orderFront:self];
     
-    [temp setContentView:[[NSTextView alloc] initWithFrame:[screen frame]]];
+    //[[NSApplication sharedApplication] addWindowsItem:temp title:@"something" filename:NO];
     
 }
 
